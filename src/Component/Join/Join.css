@@ -9,12 +9,15 @@
 
 .div2{
     color: aliceblue;
+    font-size: 1.6vmax;
+    padding: 1vmax;
 }
 
 .JoinContainer{
    
    
     width: 50%;
+    padding: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +28,7 @@
 }
 .JoinContainer > h1{
     color: white;
-    font-size: 2.5vmax;
+    font-size: 4vmax;
     width: 25vmax;
     border-bottom: 0.2vmax solid white;
     text-align: center;
@@ -37,6 +40,7 @@
 #joinInput{
     width: 25vmax;
     padding: 1.5vmax;
+    height: 5vmax;
     border: none;
     outline: none;
     font-size: 1.2vmax;
@@ -45,6 +49,7 @@
 }
 .joinbtn{
     width: 25vmax;
+    height: 5vmax;
     padding: 1.5vmax;
     border: none;
     color: white;

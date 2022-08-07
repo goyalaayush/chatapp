@@ -17,6 +17,7 @@ function App() {
  
         <Router>
     <Routes>
+   
       <Route exact path="/chatapp" element={<Join/>}/>
       <Route  path="/chatapp/chat" element={<Chat/>}/>
     </Routes>

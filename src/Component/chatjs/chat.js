@@ -69,7 +69,7 @@ const Chat = () => {
         <div className='chatContainer bw2 shadow-5 dib br3 ma2 bg-light-green'>
         <div className='header  bw2 shadow-5  '>
 
-        <span className=' close'><a className='a' href='/'>&times;</a></span>
+        <span className=' close'><a className='a' href='/chatapp'>&times;</a></span>
       
         </div>
         {
