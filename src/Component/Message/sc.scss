@@ -61,32 +61,7 @@ body {
   align-items: center;
   background-color: $bgColor-01;
   overflow: hidden;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, #6A82FB, #FC5C7D);
-    clip-path: circle(22% at 30% 20%);
-    z-index: -1;
-    pointer-events: none;
-    animation: original 0.5s ease-out;
-  }
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, #6A82FB, #FC5C7D);
-    clip-path: circle(20% at 70% 90%);
-    z-index: -1;
-    pointer-events: none;
-    animation: original 0.5s ease-out;
-  }
+ 
 }
 
 .chat-box {
