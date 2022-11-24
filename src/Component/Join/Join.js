@@ -8,12 +8,12 @@ const Join = () => {
 
 const [name, setuser] = useState("")
 
-const [selectedImage, setSelectedImage] = useState(null);
+
 const senduser=()=>{
   user=document.getElementById('joinInput').value;
   if(!user) alert('Please Enter your Name')
   document.getElementById('joinInput').value="";
-  source=URL.createObjectURL(selectedImage);
+
 }
   return (
 
